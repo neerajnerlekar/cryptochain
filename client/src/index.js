@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { render } from "react-dom";
 import { HashRouter, Switch, Route } from "react-router-dom";
@@ -20,3 +21,10 @@ render(
   </HashRouter>,
   document.getElementById("root")
 );
+=======
+import React from "react";
+import { render } from "react-dom";
+import App from "./components/App";
+
+render(<App></App>, document.getElementById("root"));
+>>>>>>> e3621a1a869c93ba8ccc6675145973c05e618290
